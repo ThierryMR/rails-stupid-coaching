@@ -1,2 +1,7 @@
+<form class="campo" action="/questions_controller/answer" method= "get">
+  <input type="text" name="question" placeholder="What do you want to ask?">
+  <input type="submit" value="Ask!">
+</form>
 <h1>Opa opa</h1>
 <h2><%= @answer %></h2>
+<%= link_to "Ask a question", "/questions_controller/answer" %>
